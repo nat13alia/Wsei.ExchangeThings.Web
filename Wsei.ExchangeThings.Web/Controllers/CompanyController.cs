@@ -16,6 +16,7 @@ namespace Wsei.ExchangeThings.Web.Controllers
             return View();
         }
 
+
         [HttpPost]
         public IActionResult Index(CompanyModel company)
         {
